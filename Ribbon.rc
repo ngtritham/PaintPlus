@@ -1,0 +1,56 @@
+// ******************************************************************************
+// * This is an automatically generated file containing the ribbon resource for *
+// * your application.                                                          *
+// ******************************************************************************
+
+#include ".\RibbonIDs.h"
+
+STRINGTABLE 
+BEGIN
+    cmdHome_LabelTitle_RESID L"Home" /* LabelTitle cmdHome_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdShapes_LabelTitle_RESID L"Shapes" /* LabelTitle cmdShapes_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_LINE_TooltipTitle_RESID L"Line" /* TooltipTitle ID_CMD_LINE_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_LINE_TooltipDescription_RESID L"Line" /* TooltipDescription ID_CMD_LINE_TooltipDescription_RESID: (null) */
+END
+
+ID_CMD_LINE_LargeImages_RESID    IMAGE    "Images\\Line-lg.png" /* LargeImages ID_CMD_LINE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_ELLIPSE_TooltipTitle_RESID L"Ellipse" /* TooltipTitle ID_CMD_ELLIPSE_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_ELLIPSE_TooltipDescription_RESID L"Ellipse" /* TooltipDescription ID_CMD_ELLIPSE_TooltipDescription_RESID: (null) */
+END
+
+ID_CMD_ELLIPSE_LargeImages_RESID    IMAGE    "Images\\Ellipse-lg.png" /* LargeImages ID_CMD_ELLIPSE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_RECTANGLE_TooltipTitle_RESID L"Rectangle" /* TooltipTitle ID_CMD_RECTANGLE_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_RECTANGLE_TooltipDescription_RESID L"Rectangle" /* TooltipDescription ID_CMD_RECTANGLE_TooltipDescription_RESID: (null) */
+END
+
+ID_CMD_RECTANGLE_LargeImages_RESID    IMAGE    "Images\\Rectangle-lg.png" /* LargeImages ID_CMD_RECTANGLE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    InternalCmd2_LabelTitle_RESID L"Label:InternalCmd2" /* LabelTitle InternalCmd2_LabelTitle_RESID: (null) */
+END
+
+APPLICATION_RIBBON    UIFILE    "Ribbon.bml"

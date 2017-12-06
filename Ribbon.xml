@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Application xmlns="http://schemas.microsoft.com/windows/2009/Ribbon">
+  
+  <Application.Commands>
+    <Command Name="cmdHome" LabelTitle="Home" />
+    
+    <Command Name="cmdShapes" LabelTitle="Shapes" />
+    
+    
+    
+      <Command Name="cmdLine" Symbol="ID_CMD_LINE" Id="1007" TooltipTitle="Line" TooltipDescription="Line">
+        <Command.LargeImages>
+          <Image>Images/Line-lg.png</Image>
+        </Command.LargeImages>
+      </Command>
+    
+    
+      <Command Name="cmdEllipse" Symbol="ID_CMD_ELLIPSE" Id="1008" TooltipTitle="Ellipse" TooltipDescription="Ellipse">
+        <Command.LargeImages>
+          <Image>Images/Ellipse-lg.png</Image>
+        </Command.LargeImages>
+      </Command>
+    
+      <Command Name="cmdRectangle" Symbol="ID_CMD_RECTANGLE" Id="1009" TooltipTitle="Rectangle" TooltipDescription="Rectangle">
+        <Command.LargeImages>
+          <Image>Images/Rectangle-lg.png</Image>
+        </Command.LargeImages>
+      </Command>
+  <!-- =================== -->
+  </Application.Commands>
+
+  
+    
+      
+      
+        
+  <Application.Views>
+    <Ribbon>
+            
+      <Ribbon.Tabs>
+        <Tab CommandName="cmdHome">
+          
+            
+          <Group CommandName="cmdShapes" SizeDefinition="ThreeButtons">  
+
+            <Button CommandName="cmdLine" />
+            <Button CommandName="cmdEllipse" />
+            <Button CommandName="cmdRectangle" />
+          </Group>
+        </Tab>
+      </Ribbon.Tabs>
+    </Ribbon>
+  </Application.Views>
+</Application>
